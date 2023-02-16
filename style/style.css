@@ -2,10 +2,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    /* font-family: 'Milish', sans-serif; */
 }
 ol, ul{
     list-style: none;
 }
 a {
     text-decoration: none;
+}
+.container{
+    max-width: 1070px;
+    margin: auto;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.logo img{
+    width: 200px;
+}
+.menu-item{
+    display: inline-block;
+    margin: 0 25px;
+    position: relative;
+}
+.menu-item.active::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    height: 2px;
+    background: #5454D4;
+}
+.menu-item a{
+    font-size: 15px;
+    font-weight: 700;
+    background: #696871;
 }
