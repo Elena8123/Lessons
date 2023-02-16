@@ -9,3 +9,16 @@ ol, ul{
 a {
     text-decoration: none;
 }
+/* .wrap img: {
+width:100px;
+margin:0 15px;
+}
+.wrap img:nth-child() */
+.block{
+    
+    height: 1080px;
+    background: rgb(255, 0, 0);
+    background: rgba(255, 0, 0, 0,5);
+    background-color: blue;
+    background-image: ;
+}
