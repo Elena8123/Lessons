@@ -1,0 +1,30 @@
+@media screen and (max-width: 1000px) {
+   
+   
+
+}
+@media screen and (max-width: 768px) {
+    .conteiner{
+        padding: 0 20px;
+    }
+    .burger{
+        display: block;
+    }
+    .menu-item{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .menu{
+        position: fixed;
+        right: -50%;
+    }
+    .menu-active{
+        width: 50vw;
+        height: 100vh;
+        right: 0;
+        top: 0;
+        padding: 150px 50px 0;
+
+    }
+}
+
