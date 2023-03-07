@@ -1,3 +1,4 @@
+@import url('./fonts.css');
 *{
     margin: 0;
     padding: 0;
@@ -8,4 +9,18 @@ ol, ul{
 }
 a {
     text-decoration: none;
+}
+body{
+    background: teal;
+}
+.test1{
+    font-family: 'KanitBold';
+    font-weight: bold;
+}
+.test2{
+    font-family: 'KanitMedium';
+    font-weight: Medium;
+}
+.test-font{
+    color: white;
 }

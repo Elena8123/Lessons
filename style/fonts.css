@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'KanitBold';
+    src: url('fonts/KanitBold.eot');
+    src: url('fonts/KanitBold.eot') format('embedded-opentype'),
+         url('fonts/KanitBold.woff2') format('woff2'),
+         url('fonts/KanitBold.woff') format('woff'),
+         url('fonts/KanitBold.ttf') format('truetype'),
+         url('fonts/KanitBold.svg#KanitBold') format('svg');
+}
+@font-face {
+    font-family: 'KanitMedium';
+    src: url('fonts/KanitMedium.eot');
+    src: url('fonts/KanitMedium.eot') format('embedded-opentype'),
+         url('fonts/KanitMedium.woff2') format('woff2'),
+         url('fonts/KanitMedium.woff') format('woff'),
+         url('fonts/KanitMedium.ttf') format('truetype'),
+         url('fonts/KanitMedium.svg#KanitMedium') format('svg');
+}
