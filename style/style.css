@@ -13,18 +13,36 @@ a {
   text-decoration: none;
 }
 
-.main-wrap {
-  display: flex;
-  justify-content: center;
+.wrap-template {
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "header-block header-block header-block" "nav-block    main-block aside-block" "footer-block footer-block footer-block";
+  gap: 10px;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 1fr 4fr 1fr;
 }
 
-.wrap {
-  display: grid;
-  gap: 10px;
+header {
+  grid-area: header-block;
+  background: red;
 }
-.wrap .item {
+
+nav {
+  grid-area: nav-block;
   background: pink;
-  border: 1px solid #000;
-  display: flex;
-  justify-content: center;
+}
+
+main {
+  grid-area: main-block;
+  background: green;
+}
+
+footer {
+  grid-area: footer-block;
+  background: orangered;
+}
+
+aside {
+  grid-area: aside-block;
+  background: yellow;
 }/*# sourceMappingURL=style.css.map */
