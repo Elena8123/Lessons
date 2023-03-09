@@ -1,11 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-ol, ul{
-    list-style: none;
+
+ol,
+ul {
+  list-style: none;
 }
+
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
+
+.main-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.wrap {
+  display: grid;
+  gap: 10px;
+}
+.wrap .item {
+  background: pink;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
