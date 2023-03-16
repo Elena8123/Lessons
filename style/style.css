@@ -9,3 +9,21 @@ ol, ul{
 a {
     text-decoration: none;
 }
+.wrap{
+    display: flex;
+    justify-content: center;
+}
+.carusel{
+    max-width: 700px;
+    position: relative;
+
+}
+.carusel.img{
+    width: 100%;
+}
+.stick-arrow{
+    position: absolute;
+    top: 50%;
+    border: none;
+    
+}
