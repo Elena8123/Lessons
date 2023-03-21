@@ -27,3 +27,14 @@ a {
     border: none;
     
 }
+.wrap-gallery{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.Fancybox.bind("[data-fancybox]", {
+    // Your custom options
+  });
